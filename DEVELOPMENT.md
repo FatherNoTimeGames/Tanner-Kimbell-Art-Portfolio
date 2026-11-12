@@ -2,9 +2,9 @@
 
 ## Current implementation
 
-Stage 2: buildless HTML, CSS, and JavaScript in `docs/`. The collection is empty because no portfolio artwork has been explicitly approved. Artwork views support title, category, description, caption, alt text, a thumbnail, and a full image. Category filters appear when there are multiple categories.
+Buildless HTML, CSS, and JavaScript in `docs/`. The collection is empty because no portfolio artwork has been explicitly approved. Artwork views support title, category, description, caption, alt text, a thumbnail, and a full image. Category filters appear when there are multiple categories.
 
-The Art Challenges page and a static Week 1 assignment view are established. The Drowned Stag remains Active. Reference selection/verification and structured challenge progress tracking belong to later stages. No completion, critique acknowledgment, or challenge start date has been assumed. No future assignment content exists.
+The website is exclusively a curated portfolio. All painting-challenge assignments, photographic references, artwork submissions, critiques, completion acknowledgments, summaries, and progress tracking belong in the chat. Do not add challenge pages, data, records, or integrations to this repository.
 
 ## Adding an approved painting
 
@@ -19,7 +19,7 @@ The Art Challenges page and a static Week 1 assignment view are established. The
    - `description`, `caption`: optional text.
 5. Link to `artwork/?id=<id>`. Check the gallery, filter buttons, full artwork view, image loading, and back links at mobile and desktop widths.
 
-Never include unapproved records in public JSON, even with a false approval flag. Runtime validation is a guard against errors, not a privacy boundary. Challenge completion never implies portfolio approval.
+Never include unapproved records in public JSON, even with a false approval flag. Runtime validation is a guard against errors, not a privacy boundary. Every painting needs explicit portfolio approval, regardless of where or why it was made.
 
 ## Development and review
 
@@ -31,7 +31,7 @@ Use a development branch and focused commits. Preserve unrelated work and rechec
 
 After deployment approval, configure GitHub Pages to publish from `main` / `docs`. `docs/.nojekyll` requests direct static file publishing. Never publish the repository root. The default project address would be `https://fathernotimegames.github.io/Tanner-Kimbell-Art-Portfolio/`; no live site has been verified.
 
-Only approved public website files belong under `docs/`. Keep notes, originals, and development records outside it. Everything committed anywhere in this repository is publicly accessible through GitHub. Notes and unpublished artwork must stay out of this public repository. A separate private notes repository may be proposed later; do not create one without approval.
+Only approved public website files belong under `docs/`. Keep notes, originals, and development records outside it. Everything committed anywhere in this repository is publicly accessible through GitHub. Notes and unpublished artwork must stay out of this public repository. Challenge notes and progress records stay in the chat; no separate notes repository is needed.
 
 ## Verification status
 
